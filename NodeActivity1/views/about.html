@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .myclass, .myclass1, .myclass2 {
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.5; 
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    text-align: center;
+    margin-top: auto;
+    display: inline-block;
+}
+.footer .container2 {
+    justify-content: center;
+}
+.footer .container1 a {
+    margin: 0 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imahecentro{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+</style>
+<body>
+    <h1 style="text-align: center;">This is the about page</h1>
+    <p style="text-align: justify; margin-right: auto; margin-left: auto;">Node.js is a runtime environment that allows JavaScript to be executed on the server side, enabling the development of scalable network applications. It uses an event-driven, non-blocking I/O model, making it efficient and suitable for handling concurrent connections and real-time applications.</p>
+    <img class="imahecentro" style="width: 1080px; height: 720px;" src="https://railsware.com/blog/wp-content/uploads/2018/09/2400%D1%851260-rw-blog-node-js.png" alt="nodejs">
+    <div class="footer">
+        <div class="container1">
+            <p class="myclass">Submitted by: Christ John Ortega</p>
+            <div class="container2">
+                <a class="myclass2" href="/">Homepage</a>
+                <a class="myclass2" href="/about">About Page</a>
+                <a class="myclass2" href="/contact">Contact</a>
+                <a class="myclass2" href="/thanks">Thank You</a>
+            </div>
+            <p class="myclass1">Submitted to: Sir. Christian Cabrera</p>
+        </div>
+    </div>
+</body>
+</html>
